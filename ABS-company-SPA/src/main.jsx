@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
 import Project3 from "./pages/Project3";
+import { Analytics } from "@vercel/analytics/next";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
